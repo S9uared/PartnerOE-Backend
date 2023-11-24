@@ -50,6 +50,8 @@ public class UserWithRoles implements UserDetails {
   @Column(nullable = false, length = 60)
   String password;
 
+  //TODO add mobile to userWithRole Entity
+
   private boolean enabled= true;
 
   @CreationTimestamp
